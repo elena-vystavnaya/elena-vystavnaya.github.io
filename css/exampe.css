@@ -1,0 +1,134 @@
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+/*border: 5px solid red;*/
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #222222; }
+
+.clearfix:after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both; }
+
+div {
+  box-sizing: border-box; }
+
+header {
+  background: url(../img/first-bg.jpg) no-repeat top center/cover;
+  height: 100vh; }
+
+.container {
+  max-width: 940px;
+  margin: 0 auto; }
+
+.logo {
+  float: left;
+  margin-top: 41px; }
+
+nav {
+  float: right;
+  margin-top: 50px; }
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: block; }
+  .menu li {
+    float: left;
+    display: block;
+    margin-right: 41px; }
+  .menu a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+.titles_first {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 180px; }
+
+h1 {
+  color: white;
+  font-size: 75px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px; }
+
+.btn {
+  text-align: center;
+  margin-top: 60px; }
+
+button {
+  width: 240px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #484543;
+  background: #fed136;
+  text-transform: uppercase;
+  padding: 20px 0;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+.title {
+  padding-top: 120px; }
+  .title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0; }
+  .title p {
+    color: #777777;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px; }
+
+.services {
+  margin-top: 50px; }
+
+.row_block {
+  width: 290px;
+  float: left;
+  text-align: center; }
+  .row_block h3 {
+    font-size: 18px;
+    margin-bottom: 5px; }
+  .row_block p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.6em; }
+  .row_block :last-child {
+    float: right; }
+  .row_block :nth-child(2) {
+    margin-left: 40px; }
+
+#services {
+  padding-bottom: 120px; }
+
+#portfolio {
+  background: #f7f7f7;
+  padding-bottom: 120px; }
+
+.works {
+  margin-top: 75px; }
+  .works img {
+    float: left; }
+    .works img :last-child {
+      float: right; }
+    .works img :nth-child(2) {
+      margin-left: 35px; }
+
+/*# sourceMappingURL=exampe.css.map */
