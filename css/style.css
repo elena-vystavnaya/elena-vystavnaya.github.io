@@ -28,16 +28,17 @@ header {
   max-width: 940px;
   margin: 0 auto; }
 
+.hat {
+  position: fixed;
+  width: 100%;
+  background: #222222;
+  padding-right: 100px; }
+
 .logo {
   float: left;
   margin-top: 41px; }
 
-.head {
-  position: fixed;
-  width: 940px; }
-
 nav {
-  background: #222222;
   float: right;
   padding-top: 30px;
   padding-bottom: 30px; }
@@ -61,7 +62,7 @@ nav {
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 180px; }
+  margin-top: 250px; }
 
 h1 {
   color: white;

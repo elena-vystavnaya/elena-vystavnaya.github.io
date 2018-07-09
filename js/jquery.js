@@ -1,3 +1,5 @@
+new WOW().init();
+
 $(document).ready(function(){
     $(".btn-slide").click(function(){
         $("#panel").slideToggle("slow");
@@ -17,3 +19,4 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top}, 1000);
     });
 });
+
