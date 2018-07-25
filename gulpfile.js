@@ -19,6 +19,7 @@ var sassfiles = [
 ];
 
 var jsfiles = [
+  "app/libs/jquery.min.js",
   "app/libs/*.js"
 ];
 
