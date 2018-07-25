@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("head").append("<link rel='stylesheet' type='text/css' href='css/style.min.css' />");
+  //  $("head").append("<link rel='stylesheet' type='text/css' href='/css/style.min.css' />");
     $("#menu").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href');
