@@ -4,129 +4,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <link rel = 'stylesheet' href="libs/bootstrap.min.css">
     <link rel = 'stylesheet' href="css/style.css">
-    <link rel = 'stylesheet' href="css/animate.css">
 
-    <title>Document</title>
+    <title>Elena Vystvnaya</title>
 </head>
 <body>
-    <header id='home'>
+    <header id='menu'>
+            <!--Menu-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="heading clearfix">
-                <div class="hat">
-                <nav id='menu'>
-                        <ul class="menu">
-                            <li>
-                                <a href="#home">Home</a>
-                            </li>
-                            <li>
-                                <a href="#services">Services</a>
-                            </li>
-                            <li>
-                                <a href="#portfolio">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="#about">About</a>
-                            </li>
-                            <li>
-                                <a href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#about-me">Обо мне</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#skills">Навыки</a>
+                        </li>                   
+                        <li class="nav-item">
+                        <a class="nav-link" href="#education">Образование</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#experience">Опыт</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#my-works">Мои работы</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-                
-            <div class="container">
-            <!--Заголовок-->
-            <div class="titles">
-
-                <div class="titles_first">
-                        Welcome to our studio!
-                </div>
-
-                <h1>
-                        It's nice to meet you
-                </h1>
-                
-                <div class="btn">
-                    <button>Tell me more</button>
-                </div>
-                
-            </div>
-        </div>
+            </nav>
     </header>
 
-    <section id = 'services'>
+    <section id="about-me">
         <div class="container">
-            <div class="two-block">
-
-                <div class='title'>
-                    <h2>Services</h2>
-                    <p>Proin iaculis purus consequat sem cure.</p>
+            <div class="row">
+                <div class="col-md">
+                    <div class="about-me-info">
+                        <h1>Меня зовут Елена</h1>
+                        <p>Я начинающий Front-end Developer.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm about-me-info-title">Телефон:</div>
+                        <div class="col-sm">095-71-61-641</div>
+                        <div class="w-100"></div>
+                        <div class="col-sm about-me-info-title">Email:</div>
+                        <div class="col-sm">helenv2909@gmail.com</div>
+                        <div class="w-100"></div>
+                        <div class="col-sm about-me-info-title">Социальные сети:</div>
+                        <div class="col-sm"></div>
+                    </div>
                 </div>
-
-                <div class="services clearfix">
-                    <div class="row_block">
-                        <img src="img/icon1.png" alt="icon1" class="icon">
-                        <h3>E-Commerce</h3>
-                        <p>Proin iaculis purus consequat sem cure 
-                                digni ssim. Donec porttitora entum suscipit 
-                                aenean rhoncus posuere odio in tincidunt.
-                        </p>
-
-                    </div>
                     
-                    <div class="row_block">
-                        <img src="img/icon2.png" alt="icon2" class="icon">
-                        <h3>Responsive Web</h3>
-                        <p>Proin iaculis purus consequat sem cure 
-                                digni ssim. Donec porttitora entum suscipit 
-                                aenean rhoncus posuere odio in tincidunt.
-                        </p>
-                    </div>
-                    
-                    <div class="row_block">
-                        <img src="img/icon3.png" alt="icon3" class="icon">
-                        <h3>Web Security</h3>
-                        <p>
-                                Proin iaculis purus consequat sem cure 
-                                digni ssim. Donec porttitora entum suscipit 
-                                aenean rhoncus posuere odio in tincidunt.
-                        </p>
-                    </div>
-                </div>                   
+                <div class="col-md">
+                    <img src="" alt="me">
+                </div>
             </div>
-        </div>
         </div>
     </section>
 
-    <section id ='portfolio'>
+    <section id='skills'>
+        <div class="container">        
+            
+            <div class="row">
+                    <div class="col-md-3">
+                            <h2>Навыки</h2>
+                        </div>
+                <div class="col-md">
+                    <h5>Programming language</h5>
+                    <p>JavaScript</p>
+                </div>
+                <div class="col-md">
+                    <h5>IDEs/Development Tools</h5>
+                    <p>VS Code</p>
+                </div>
+                <div class="col-md">
+                    <h5>JS frameworks</h5>
+                    <p>jQuery, React</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md offset-md-3">
+                    <h5>CSS frameworks</h5>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="col-md">
+                    <h5>Front-end Devemopment</h5>
+                    <p>HTML5, CSS3</p>
+                </div>
+                <div class="col-md">
+                    <h5>Version Control System</h5>
+                    <p>Git</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md offset-md-3">
+                    <h5>CSS Preprocessor</h5>
+                    <p>SCSS</p>
+                </div>
+                <div class="col-md">
+                    <h5>Graphics Editor</h5>
+                    <p>Photoshop</p>
+                </div>
+                <div class="col-md">
+                    <h5>Task Manager</h5>
+                    <p>Gulp</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id='education'>
         <div class="container">
-
-            <div class='title'>
-                <h2>Our portfolio</h2>
-                <p>Proin iaculis purus consequat sem cure.</p>
-            </div>
-
-            <div class="works clearfix">
-
-                <a href='https://elena-vystavnaya.github.io/calendar'><img src="img/img1.jpg" alt="Img" class="img wow bounceInLeft"></a>
-                    
-                    <img src="img/img2.jpg" alt="Img" class="img wow bounceInUp">
-                    <img src="img/img3.jpg" alt="Img" class="img wow bounceInRight">
+            <div class="row">
+                <div class="col-md-auto">
+                    <h2>Образование</h2>
+                </div>
+                <div class="col-md">
+                    <h5>Национальный аэрокосмический университет имени Н. Е. Жуковского</h5>
+                    <p>Сентябрь, 2012 - Июнь, 2017</p>
+                    <div class="education-info">
+                        <p>
+                            Кафедра информатики. Специальность "Прикладная математика". 
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id='about'>
-        <div class="container"></div>
+    <section id='experience'>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-auto">
+                    <h2>Опыт работы</h2>
+                </div>
+                <div class="col-md">
+                    <p>
+                        <!--Что-то написать-->
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section id='my-works'>
+        <div class="container">
+            <div class='row'>
+                <div class="col-lg my-works-title">
+                    <h2>Мои работы</h2>
+                </div>              
+            </div>
+
+            <div class="row">
+                <div class="col">                
+                    <a href='https://elena-vystavnaya.github.io/mart' target="_blank"><img src="img/img1.jpg" alt="Img" class="mart wow bounceInLeft"></a>
+                </div>
+                <div class="col">
+                    <a href='https://elena-vystavnaya.github.io/calendar' target="_blank"><img src="img/img1.jpg" alt="Img" class="calendar wow bounceInLeft"></a>
+                </div>
+                <div class="col">                
+                    <a href='https://elena-vystavnaya.github.io/healthy' target="_blank"><img src="img/img1.jpg" alt="Img" class="healthy wow bounceInLeft"></a>
+                </div> 
+            </div>            
+        </div>
+    </section>
+
 
     <footer>
-
+        <p>Elena Vystavnaya</p>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <script src="js/wow.min.js"></script> 
-    <script src="js/jquery.js"></script>
+    <script src="libs/bootstrap.min.js"></script> 
+    <script src="js/script.js"></script> 
+
 </body>
 </html>
