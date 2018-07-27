@@ -8,6 +8,14 @@ $(document).ready(function(){
               scrollTop: top - margin
           }, 1000);
       });
+
+      $('.work').mouseover(function(){
+        $(this).find('.hover').show();
+    });
+
+    $('.work').mouseleave(function(){
+        $(this).find('.hover').hide();
+    });
   }); 
 
 
