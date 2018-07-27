@@ -9,3 +9,49 @@
     padding: 20px;
 }
 
+.img{
+    position: relative;
+    width: 340px;
+    margin: auto;
+}
+
+.phone{
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+}
+
+.hover-block{
+    position: relative;
+    width: 350px;
+    margin: auto;
+}
+
+.hover-title{
+    display: table;
+  width: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.hover{
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    color: rgb(250, 249, 249);
+    position: absolute;
+    width: 350px;
+    height: 340px;
+    border: 15px rgb(0, 0, 0) solid;
+    font-size: 20px;
+    z-index: 9;
+    
+    p{
+        cursor: pointer;
+        &:hover{
+            color: rgb(194, 183, 183);
+        }
+    }
+}
+

@@ -10,3 +10,13 @@ section{
     border-bottom: 1px #d8d8d8 solid;
     padding: 20px 0;
 }
+
+h2{
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px){
+    h2{
+        font-size: 1.5em;
+    }
+}
