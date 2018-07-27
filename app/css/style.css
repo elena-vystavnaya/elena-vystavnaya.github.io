@@ -13,6 +13,13 @@ header {
   margin-top: 70px; }
   #about-me .col-sm {
     margin-bottom: 10px; }
+  #about-me .me {
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.8);
+            box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.8); }
+  #about-me .col-md:last-child {
+    text-align: center; }
 
 .about-me-info-title {
   font-weight: bold; }
@@ -68,6 +75,19 @@ header {
     cursor: pointer; }
     .hover p:hover {
       color: #c2b7b7; }
+
+.btn-primary {
+  background: #cc5c5c;
+  border-color: #cc5c5c; }
+  .btn-primary:hover {
+    background: #9e3737;
+    border-color: #9e3737; }
+  .btn-primary:not(:disabled):not(.disabled):active {
+    background: #742828;
+    border-color: #742828; }
+  .btn-primary:not(:disabled):not(.disabled):active:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(204, 92, 92, 0.5);
+            box-shadow: 0 0 0 0.2rem rgba(204, 92, 92, 0.5); }
 
 footer {
   background: #222;

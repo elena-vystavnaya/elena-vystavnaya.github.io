@@ -55,3 +55,18 @@
     }
 }
 
+.btn-primary{
+    background: rgb(204, 92, 92);
+    border-color: rgb(204, 92, 92);
+    &:hover{
+        background: rgb(158, 55, 55);
+        border-color: rgb(158, 55, 55);
+    }
+    &:not(:disabled):not(.disabled):active{
+        background: rgb(116, 40, 40);
+        border-color: rgb(116, 40, 40);
+    }
+    &:not(:disabled):not(.disabled):active:focus{
+        box-shadow: 0 0 0 0.2rem rgba(204, 92, 92, 0.5);
+    }
+}

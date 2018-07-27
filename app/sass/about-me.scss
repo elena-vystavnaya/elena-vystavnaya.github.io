@@ -1,7 +1,18 @@
 #about-me{
     margin-top: 70px;
+
     .col-sm{
         margin-bottom: 10px;
+    }
+
+    .me{
+        border-radius: 50%;
+        box-shadow: 0px 0px 25px 0 rgba(0,0,0,0.8)
+
+    }
+
+    .col-md:last-child{
+        text-align: center;
     }
 }
 
